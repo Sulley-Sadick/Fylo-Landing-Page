@@ -116,6 +116,10 @@ nav ul li a{
     font-size: var(--font-size-body);
     color: var(--very-dark-blue);
 }
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
 /* end of header styles */
 
 /* store-section */
@@ -185,8 +189,8 @@ nav ul li a{
 /* productivity container styles */
 
 .productivity{
-    margin: 0 0 5rem 0;
     background-color: var(--light-grayish-blue);
+    margin: 0 0 5rem 0;
 }
 
 .productive-img img{
@@ -376,7 +380,8 @@ nav ul li a{
     font-size: var(--font-size-400);
 }
 
-.nav-links a:active{
+.nav-links a:hover{
+    text-decoration: underline;
     color: var(--bright-blue);
 }
 
@@ -491,11 +496,6 @@ nav ul li a{
         flex-direction: row-reverse;
         align-items: center;
         gap: 1rem;
-        background-image: url(/images/bg-curve-desktop.svg);
-        background-color: var(--light-grayish-blue);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: top -20px;
     }
 
     .productivity > *{

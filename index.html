@@ -9,6 +9,7 @@
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
   <link rel="stylesheet" href="/Fylo-landing-page.css">
+  <script defer  src="/script.js"></script>
 <body>
   <header>
     <!-- header -->
@@ -32,15 +33,16 @@
         <h1 class="main-title"> All your files in one secure location, accessible anywhere.</h1>
         <p class="store-desc">
           Fylo stores your most important files in one secure location. 
-          Access them wherever you need, share and collaborate with friends, 
+          Access them wherever you noeed, share and collaborate with friends, 
           family, and co-workers.
         </p>
 
         <!-- store input details -->
         <div class="store-input">
-          <form action="#">
+          <form id="form" action="#">
           <input type="email" name="email" id="email" placeholder="Enter your email..." class="email">
-          <input type="button" value="Get Started" class="submit">
+          <div class="error"></div>
+          <input type="submit" value="Get Started" class="submit">
           </form>
         </div>
       </div>
@@ -100,9 +102,10 @@
         </p>
       </div>
       <div class="content-input">
-        <form action="#">
+        <form id="form" action="#">
         <input type="email" name="email" id="email" placeholder="email@example.com" class="access-email">
-        <button type="button" class="btn">Get Started For Free</button>
+        <div class="error"></div>
+        <button type="submit" class="btn">Get Started For Free</button>
           </form>
       </div>
     </section>
