@@ -73,6 +73,7 @@ body{
 .main-container{
     padding: 1rem 1rem;
     background-color: var(--white-color);
+    /* position: relative; */
 }
 
 .main-container, header{
@@ -185,6 +186,9 @@ nav ul li a:hover{
     background-size: cover;
     background-position: top;
 }
+
+
+
 
 /* productivity container styles */
 
@@ -604,6 +608,5 @@ nav ul li a:hover{
     }
     .access-title{
         font-size: var(--font-size-600);
-    }
-    
+    }    
 }
